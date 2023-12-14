@@ -5,7 +5,7 @@
 int main() {
   Game game;
   Player hero("hero");
-  AiPlayer ai_player("ai_player");
+  AiPlayer ai_player("knot");
 
   game.AddPlayer(hero);
   game.AddPlayer("Jalen");
