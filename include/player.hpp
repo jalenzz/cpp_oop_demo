@@ -18,13 +18,12 @@ public:
   int GetLevel();
 
   std::string name_; // 玩家名字
+  int level_ = 0;    // 玩家等级
 
 private:
   /**
    * @brief 玩家升级
    * @return 玩家当前等级
    */
-  int LevelUp(int value);
-
-  int level_ = 0; // 玩家等级
+  virtual int LevelUp(int value);
 };
