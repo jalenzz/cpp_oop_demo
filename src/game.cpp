@@ -9,6 +9,7 @@
 Game::Game() {
   this->game_status_ = OVER;
   this->goal = 20;
+  this->round = 1; //round从1开始
   std::cout << "Creat a game" << std::endl;
   srand(time(NULL));
 }
