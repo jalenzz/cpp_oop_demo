@@ -3,19 +3,19 @@
 #include "player.hpp"
 
 int main() {
-  Game game;
-  Player hero("hero");
-  AiPlayer ai_player("knot");
+    Game game;
+    Player hero("hero");
+    AiPlayer ai_player("knot");
 
-  game.AddPlayer(hero);
-  game.AddPlayer("Jalen");
-  game.AddPlayer("Bob");
-  game.AddPlayer("pt");
-  game.AddPlayer(ai_player);
+    game.AddPlayer(hero);
+    game.AddPlayer("Jalen");
+    game.AddPlayer("Bob");
+    game.AddPlayer("pt");
+    game.AddPlayer(ai_player);
 
-  game.Start();
-  game.Run();
-  game.End();
+    game.Start();
+    game.Run();
+    game.End();
 
-  return 0;
+    return 0;
 }
